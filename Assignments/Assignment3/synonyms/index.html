@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cross Atlantic Cruise</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+</head>
+<body onload="next_question()">
+<script src="index.js"></script>
+
+<br><br>
+<div class="container-fluid"><div class="row content">
+<div class="col-md-1 ">
+</div>
+
+<div class="col-md-10 well well-lg" align="center">
+	<p id="word" style="font-size:40px"></p>
+</div>
+<div class="col-md-1 ">
+</div>
+
+</div>
+</div>
+
+<br><br><br>
+<div class="container-fluid">
+	<div class="row content">
+	    <div class="col-md-1 ">
+	    </div>
+
+	    <div class = "col-md-10">
+
+	    <div class="col-md-4" align="center">
+	    <button id="option1" style="font-size:30px" class="btn btn-default" onclick="check1()"></button>
+	    </div>
+		<div class="col-md-4" align="center">
+		<button id="option2" style="font-size:30px" class="btn btn-default" onclick="check2()"></button>
+	    </div>
+	    <div class="col-md-4" align="center">
+	    <button id="option3" style="font-size:30px" class="btn btn-default" onclick="check3()"></button>
+	    </div>
+
+	    </div>
+
+	    <div class="col-md-1">
+	    </div>
+	</div>
+</div>
+
+<script type="text/javascript">
+function check1()
+{
+	if (rand_options == 1) {
+		document.getElementById("option1").className += " btn-success";
+/*		var btn = document.createElement("BUTTON");        // Create a <button> element
+		var t = document.createTextNode("NEXT");       // Create a text node
+		btn.appendChild(t);                                // Append the text to <button>
+		document.body.appendChild(btn);
+*/
+		setTimeout(next_question,2000);
+	}
+	else
+		document.getElementById("option1").className += " btn-danger";
+	
+}
+function check2()
+{
+	if (rand_options == 2) {
+		document.getElementById("option2").className += " btn-success";
+/*		var btn = document.createElement("BUTTON");        // Create a <button> element
+		var t = document.createTextNode("NEXT");       // Create a text node
+		btn.appendChild(t);                                // Append the text to <button>
+		document.body.appendChild(btn);
+		btn.class = "btn btn-default";
+*/
+		setTimeout(next_question,2000);
+	}
+	else
+		document.getElementById("option2").className += " btn-danger";
+}
+function check3()
+{
+	if (rand_options == 3) {
+		document.getElementById("option3").className += " btn-success";
+/*		var btn = document.createElement("BUTTON");        // Create a <button> element
+		var t = document.createTextNode("NEXT");       // Create a text node
+		btn.appendChild(t);                                // Append the text to <button>
+		document.body.appendChild(btn);
+*/
+		setTimeout(next_question,2000);
+	}
+	else
+		document.getElementById("option3").className += " btn-danger";
+}
+</script>
+
+</body>
+</html>
