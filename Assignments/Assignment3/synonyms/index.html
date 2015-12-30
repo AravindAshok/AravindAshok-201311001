@@ -9,6 +9,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   
   <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body onload="next_question()">
 <script src="index.js"></script>
@@ -16,14 +17,15 @@
 <br><br>
 <div class="container-fluid"><div class="row content">
 <div class="col-md-1 ">
+<div class="col-md-12" align="center">
+<a href="home.html" class="btn btn-info" role="button">Home</a>
+</div>
 </div>
 
 <div class="col-md-10 well well-lg" align="center">
 	<p id="word" style="font-size:40px"></p>
 </div>
-<div class="col-md-1 ">
-</div>
-
+<div class="col-md-1 "></div>
 </div>
 </div>
 
@@ -51,18 +53,27 @@
 	    </div>
 	</div>
 </div>
+<div style="height:100px;"></div>
+<div class="container-fluid">
+	<div class="row content">
+		<div class="sprite right"></div>
+		<div>
+		<img src="images/finish.jpg" 
+   style="position:absolute; top:400px; left:1150px; z-index:-1; width:150px; height:150px; border:none;"
+   alt="fixed position Willmaster logo"
+   title="Willmaster logo in fixed position" />
+   		</div>
 
+	</div>
+</div>
+<script src="move.js"></script>
 <script type="text/javascript">
 function check1()
 {
 	if (rand_options == 1) {
 		document.getElementById("option1").className += " btn-success";
-/*		var btn = document.createElement("BUTTON");        // Create a <button> element
-		var t = document.createTextNode("NEXT");       // Create a text node
-		btn.appendChild(t);                                // Append the text to <button>
-		document.body.appendChild(btn);
-*/
-		setTimeout(next_question,2000);
+		next_step(number_of_questions);
+		setTimeout(next_question,23000/number_of_questions);
 	}
 	else
 		document.getElementById("option1").className += " btn-danger";
@@ -72,13 +83,8 @@ function check2()
 {
 	if (rand_options == 2) {
 		document.getElementById("option2").className += " btn-success";
-/*		var btn = document.createElement("BUTTON");        // Create a <button> element
-		var t = document.createTextNode("NEXT");       // Create a text node
-		btn.appendChild(t);                                // Append the text to <button>
-		document.body.appendChild(btn);
-		btn.class = "btn btn-default";
-*/
-		setTimeout(next_question,2000);
+		next_step(number_of_questions);
+		setTimeout(next_question,23000/number_of_questions);
 	}
 	else
 		document.getElementById("option2").className += " btn-danger";
@@ -87,17 +93,14 @@ function check3()
 {
 	if (rand_options == 3) {
 		document.getElementById("option3").className += " btn-success";
-/*		var btn = document.createElement("BUTTON");        // Create a <button> element
-		var t = document.createTextNode("NEXT");       // Create a text node
-		btn.appendChild(t);                                // Append the text to <button>
-		document.body.appendChild(btn);
-*/
-		setTimeout(next_question,2000);
+		next_step(number_of_questions);
+		setTimeout(next_question,23000/number_of_questions);
 	}
 	else
 		document.getElementById("option3").className += " btn-danger";
 }
 </script>
+
 
 </body>
 </html>

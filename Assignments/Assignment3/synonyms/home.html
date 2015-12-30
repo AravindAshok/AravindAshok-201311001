@@ -14,21 +14,33 @@
 <script src="index.js"></script>
 
 <br><br>
-<div class="container-fluid"><div class="row content">
-<div class="col-md-12 ">
-</div>
+<div class="container-fluid">
+<div class="row content">
+<div class="col-md-12 "></div>
 </div>
 </div>
 
 <div class="container-fluid"><div class="row content">
+<div class="col-md-1 ">
 <div class="col-md-12" align="center">
-<button class="btn btn-default" onclick="hindi()">Hindi</button>
-<button class="btn btn-default" onclick="malayalam()">Malayalam</button>
-<button class="btn btn-default" onclick="bengali()">Bengali</button>  
+<a href="home.html" class="btn btn-info" role="button">Home</a>
+</div>
+</div>
+<div class="col-md-10" align="center">
+<button class="btn btn-default" id="hindi" >Hindi</button>
+<button class="btn btn-default" id="malayalam" >Malayalam</button>
+<button class="btn btn-default" id="bengali" >Bengali</button>  
+</div>
+<div class="col-md-1 ">
 </div>
 </div></div>
 
 <script type="text/javascript">
+
+document.getElementById('hindi').addEventListener('click', hindi, false);
+document.getElementById('malayalam').addEventListener('click', malayalam, false);
+document.getElementById('bengali').addEventListener('click', bengali, false);
+
 function hindi()
 {
 
