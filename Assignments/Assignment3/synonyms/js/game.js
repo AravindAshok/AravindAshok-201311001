@@ -29,7 +29,7 @@ xhttp.onreadystatechange = function() {
         displayQuestion(xhttp);
     }
 };
-xhttp.open("GET", "synonym_collection.xml", true);
+xhttp.open("GET", "xml/synonym_collection.xml", true);
 xhttp.send();
 }
 
