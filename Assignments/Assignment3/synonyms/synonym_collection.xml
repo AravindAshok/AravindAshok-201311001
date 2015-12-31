@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<collection>
+<q_hin_e>
+	<word>आग</word>
+	<synonym>अनल</synonym>
+	<option1>गर्व</option1>
+	<option2>सुख</option2>
+</q_hin_e>
+<q_hin_e>
+	<word>असुर</word>
+	<synonym>दानव</synonym>
+	<option1>विधाता</option1>
+	<option2>पद्म</option2>
+</q_hin_e>
+<q_hin_e>
+	<word>आँख</word>
+	<synonym>नेत्र</synonym>
+	<option1>भाग</option1>
+	<option2>आकांक्षा</option2>
+</q_hin_e>
+<q_hin_m>
+	<word>नदी</word>
+	<synonym>सरिता</synonym>
+	<option1>पल्लव</option1>
+	<option2>अम्बर</option2>
+</q_hin_m>
+<q_hin_m>
+	<word>कमल</word>
+	<synonym>अरविन्द</synonym>
+	<option1>सुरतरु</option1>
+	<option2>धनेश</option2>
+</q_hin_m>
+<q_hin_m>
+	<word>अश्व</word>
+	<synonym>तुरंग</synonym>
+	<option1>धेनु</option1>
+	<option2>हस्ती</option2>
+</q_hin_m>
+<q_hin_h>
+	<word>अरण्य</word>
+	<synonym>कानन</synonym>
+	<option1>अनोखा</option1>
+	<option2>अन्नदाता</option2>
+</q_hin_h>
+<q_hin_h>
+	<word>भूषण</word>
+	<synonym>जेवर</synonym>
+	<option1>गरल</option1>
+	<option2>सारंग</option2>
+</q_hin_h>
+<q_hin_h>
+	<word>कृषक</word>
+	<synonym>खेतिहर</synonym>
+	<option1>वाटिका</option1>
+	<option2>तनुज</option2>
+</q_hin_h>
+<q_mal_e>
+	<word>നായ</word>
+	<synonym>ശുനകൻ</synonym>
+	<option1>പൂച്ച</option1>
+	<option2>മരം</option2>
+</q_mal_e>
+<q_mal_e>
+	<word>പുഴ</word>
+	<synonym>നദി</synonym>
+	<option1>മരം</option1>
+	<option2>ആകാശം</option2>
+</q_mal_e>
+<q_mal_e>
+	<word>മരം</word>
+	<synonym>വൃക്ഷം</synonym>
+	<option1>ആകാശം</option1>
+	<option2>നദി</option2>
+</q_mal_e>
+<q_mal_m>
+	<word>ആകാശം</word>
+	<synonym>വാനം</synonym>
+	<option1>വനം</option1>
+	<option2>സരസ്</option2>
+</q_mal_m>
+<q_mal_m>
+	<word>തീ</word>
+	<synonym>അഗ്നി</synonym>
+	<option1>ഭൂമി</option1>
+	<option2>സരസ്</option2>
+</q_mal_m>
+<q_mal_m>
+	<word>ഗിരി</word>
+	<synonym>പർവതം</synonym>
+	<option1>ഗോപുരം</option1>
+	<option2>വാഹനം</option2>
+</q_mal_m>
+<q_mal_h>
+	<word>നരൻ</word>
+	<synonym>പുരുഷൻ</synonym>
+	<option1>ബാലൻ</option1>
+	<option2>നാരി</option2>
+</q_mal_h>
+<q_mal_h>
+	<word>അപമാനം</word>
+	<synonym>ഉപേക്ഷ</synonym>
+	<option1>മിഥ്യ</option1>
+	<option2>കോപം</option2>
+</q_mal_h>
+<q_mal_h>
+	<word>കല്പവൃക്ഷം</word>
+	<synonym>പാരിജാതം</synonym>
+	<option1>തപോവനം</option1>
+	<option2>മഴവില്ല്</option2>
+</q_mal_h>
+<q_ben_e>
+	<word>নীর</word>
+	<synonym>জল</synonym>
+	<option1>বায়ু</option1>
+	<option2>প্রিথ্ভি</option2>
+</q_ben_e>
+<q_ben_e>
+	<word>আকাশ</word>
+	<synonym>গগন</synonym>
+	<option1>প্রিথ্ভি</option1>
+	<option2>অগ্নি</option2>
+</q_ben_e>
+<q_ben_e>
+	<word>ভ্রুক্ষ</word>
+	<synonym>তরু</synonym>
+	<option1>জল</option1>
+	<option2>অগ্নি</option2>
+</q_ben_e>
+<q_ben_m>
+	<word>ভান</word>
+	<synonym>কানন</synonym>
+	<option1>গগন</option1>
+	<option2>ভূমি</option2>
+</q_ben_m>
+<q_ben_m>
+	<word>ভুমি</word>
+	<synonym>প্রিথ্ভি</synonym>
+	<option1>বায়ু</option1>
+	<option2>জল</option2>
+</q_ben_m>
+<q_ben_m>
+	<word>বায়ু</word>
+	<synonym>পভন</synonym>
+	<option1>নিশা</option1>
+	<option2>সারন্গ</option2>
+</q_ben_m>
+<q_ben_h>
+	<word>শরীর</word>
+	<synonym>কায়া</synonym>
+	<option1>সারন্গ</option1>
+	<option2>হৃদয়</option2>
+</q_ben_h>
+<q_ben_h>
+	<word>প্রচন্ড</word>
+	<synonym>খুব</synonym>
+	<option1>একটু</option1>
+	<option2>ভালো</option2>
+</q_ben_h>
+<q_ben_h>
+	<word>বাদী</word>
+	<synonym>ভবন</synonym>
+	<option1>জীভন</option1>
+	<option2>পর্বত</option2>
+</q_ben_h>
+</collection>

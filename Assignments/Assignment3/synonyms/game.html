@@ -9,10 +9,10 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   
   <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="game.css">
 </head>
 <body onload="next_question()">
-<script src="index.js"></script>
+<script src="game.js"></script>
 
 <br><br>
 <div class="container-fluid"><div class="row content">
@@ -73,7 +73,7 @@ function check1()
 	if (rand_options == 1) {
 		document.getElementById("option1").className += " btn-success";
 		next_step(number_of_questions);
-		setTimeout(next_question,23000/number_of_questions);
+		setTimeout(next_question,21000/number_of_questions);
 	}
 	else
 		document.getElementById("option1").className += " btn-danger";
@@ -84,7 +84,7 @@ function check2()
 	if (rand_options == 2) {
 		document.getElementById("option2").className += " btn-success";
 		next_step(number_of_questions);
-		setTimeout(next_question,23000/number_of_questions);
+		setTimeout(next_question,21000/number_of_questions);
 	}
 	else
 		document.getElementById("option2").className += " btn-danger";
@@ -94,7 +94,7 @@ function check3()
 	if (rand_options == 3) {
 		document.getElementById("option3").className += " btn-success";
 		next_step(number_of_questions);
-		setTimeout(next_question,23000/number_of_questions);
+		setTimeout(next_question,21000/number_of_questions);
 	}
 	else
 		document.getElementById("option3").className += " btn-danger";

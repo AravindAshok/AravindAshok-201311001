@@ -1,5 +1,6 @@
 var done = [];
 var lang = sessionStorage.getItem('lang');
+var difficulty = sessionStorage.getItem('difficulty');
 var number_of_questions;
 
 
@@ -28,7 +29,7 @@ xhttp.onreadystatechange = function() {
         displayQuestion(xhttp);
     }
 };
-xhttp.open("GET", "index.xml", true);
+xhttp.open("GET", "synonym_collection.xml", true);
 xhttp.send();
 }
 
@@ -38,11 +39,32 @@ function displayQuestion(xml) {
 	var first_time=1;
 
 	if(lang == "hindi")
-		var q = xmlDoc.getElementsByTagName("q_hin");
+	{
+		if(difficulty == 'easy')
+			var q = xmlDoc.getElementsByTagName("q_hin_e");
+		else if(difficulty == 'moderate')
+			var q = xmlDoc.getElementsByTagName("q_hin_m");
+		else if(difficulty == 'hard')
+			var q = xmlDoc.getElementsByTagName("q_hin_h");
+	}
 	else if(lang == "malayalam")
-		var q = xmlDoc.getElementsByTagName("q_mal");
+	{
+		if(difficulty == 'easy')
+			var q = xmlDoc.getElementsByTagName("q_mal_e");
+		else if(difficulty == 'moderate')
+			var q = xmlDoc.getElementsByTagName("q_mal_m");
+		else if(difficulty == 'hard')
+			var q = xmlDoc.getElementsByTagName("q_mal_h");
+	}
 	else if(lang == "bengali")
-		var q = xmlDoc.getElementsByTagName("q_ben");
+	{
+		if(difficulty == 'easy')
+			var q = xmlDoc.getElementsByTagName("q_ben_e");
+		else if(difficulty == 'moderate')
+			var q = xmlDoc.getElementsByTagName("q_ben_m");
+		else if(difficulty == 'hard')
+			var q = xmlDoc.getElementsByTagName("q_ben_h");
+	}
 
 	number_of_questions = q.length;
 	for (i = 0; i < number_of_questions; i++) {
